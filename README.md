@@ -1,3 +1,23 @@
+# 실행과정
+
+1. The Graph 접속해서 subgraph 생성해준다.
+2. 현재 github repository와 연결한다.
+3. 생성하면 시키는대로 graph protocol 설치 후 graph init 진행
+4. graph init 하는데 uniswap v2를 그대로 실행시켜볼 것이기 때문에 factory adress 를 contract adress에 입력해준다.
+5. abi fetching에 실패할 경우에 etherscan에 접속하여 직접 abi 파일을 긁어오자.
+6. filepath를 입력해주면 그 경로의 abi를 토대로 빌드를 해준다.
+
+7. graph auth <accesstoken> 실행
+8. cd copyUniswapInfo
+9. yarn deploy
+
+deploy tutorial
+https://thegraph.academy/developers/deploying-a-subgraph/
+fork uniswap & create your own sushiswap
+https://www.youtube.com/watch?v=U3fTTqHy7F4
+
+---
+
 # Uniswap V2 Subgraph
 
 [Uniswap](https://uniswap.org/) is a decentralized protocol for automated token exchange on Ethereum.
